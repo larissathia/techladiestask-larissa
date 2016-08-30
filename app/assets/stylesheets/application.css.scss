@@ -28,7 +28,6 @@ body {
 	height: 100%;
   background: #FF0099;
   font-family: 'BebasNeueRegular', sans-serif;
-  text-transform: uppercase;
 }
 
 .clearfix:before,
@@ -60,7 +59,7 @@ body {
 #jobs {
 	.job {
 		padding: 1em 0;
-		border-bottom: 1px solid rgba(250,250,250, 0.5);
+		border-bottom: 1px solid rgba(255,255,255, 1);
 		h2 {
 			font-size: 2.5em;
 			font-weight: 300;
@@ -72,12 +71,8 @@ body {
 		}
 		p {
 			color: rgba(255,255,255,1);
-      text-transform: lowercase;
       font-weight: 900;
 		}
-    p:first-letter {
-    text-transform: uppercase;
-    }
 	}
 }
 
