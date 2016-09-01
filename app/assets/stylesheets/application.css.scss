@@ -16,7 +16,6 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 * {
 	box-sizing: border-box;
 }
@@ -70,10 +69,6 @@ body {
   float: none;
   text-align: center;
   width: 100%;
-}
-
-.img {
-  float: left;
 }
 
 #jobs {
